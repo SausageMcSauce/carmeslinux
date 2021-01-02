@@ -4,7 +4,7 @@ if [ `whoami` != root ]; then # script from electrictoolbox.com
     echo "Please run as superuser or sudo"
     exit
 fi
-if [ -f "/etc/debian-version" ]; then # From Stack Overflow
+if [ -f "/etc/debian_version" ]; then # From Stack Overflow
     echo "Carmes Linux can be installed."
 else
     echo "Carmes Linux can only work on Debian-based systems (Only Debian Buster will be supported for now)"
