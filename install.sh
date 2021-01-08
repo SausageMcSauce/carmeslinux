@@ -1,4 +1,4 @@
-echo "Carmes Linux - in progress"
+echo "Carmes Linux - version 1.0.0"
 
 if [ `whoami` != root ]; then # script from electrictoolbox.com
     echo "Please run as superuser or sudo"
@@ -13,4 +13,4 @@ fi
 
 apt-get install lightdm openbox nautilus gedit gnome-terminal lxpanel chromium # might add option for firefox
 
-cat ./data/autostart.sh >> /etc/xdg/openbox/autostart # this part might not work at first
+cat ./data/autostart.sh >> /etc/xdg/openbox/autostart
